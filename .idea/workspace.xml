@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f7d521-34ac-439d-b117-997b3b98403c" name="Changes" comment="" />
+    <list default="true" id="e0f7d521-34ac-439d-b117-997b3b98403c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-2cols-gallery-left-filled.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-2cols-gallery-left-filled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-2cols-gallery-right-filled.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-2cols-gallery-right-filled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-2cols-gallery-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-2cols-gallery-right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-fullscreen-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-fullscreen-slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-standard-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-standard-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-standard-start-from-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-standard-start-from-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-standard-text-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-standard-text-center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-item-standard-text-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-item-standard-text-left.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +54,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683441917106</updated>
-      <workItem from="1683441918390" duration="2410000" />
+      <workItem from="1683441918390" duration="3332000" />
+      <workItem from="1683478610029" duration="1762000" />
     </task>
     <servers />
   </component>
