@@ -1,0 +1,9 @@
+.btn{padding: 12px 30px; color: #FFF; margin: 30px 10px;}
+.btn:hover{color: #999;}
+.btn-grey {background-color:#555;}
+.btn-black {background-color:#222;}
+.portfolio-item { padding: 10px 20px; }
+.portfolio-img-content { transition: all 0.5s; }
+.portfolio-item:hover .portfolio-img-content { box-shadow: 0 7px 7px rgba(0,0,0,0.1) }
+.portfolio-item:hover .portfolio-img-content img { transform: scale(1); }
+.portfolio-item .portfolio-text-content .portfolio-text { padding-left: 20px; }
