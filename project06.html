@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+    </script>
 
     <title>ByteBuds - Demo Agency</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="ByteBuds"/>
     <meta name="author" content="ByteBuds">
     <meta charset="UTF-8"/>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
     <link href="style.css" rel="stylesheet"/>
     <link href="css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -49,14 +52,7 @@
                     <!-- Logo -->
                     <div id="logo" class="hide-ball">
                         <a class="ajax-link" data-type="page-transition" href="index.html">
-                            <!--<h4 class="black-logo" style="font-weight: bolder">-->
-                            <!--Demo.-->
-                            <!--</h4>-->
-                            <!-- <h4 class="black-logo" style="font-weight: bolder; color: white";>-->
-                            <!--Demo.-->
-                            <!--</h4>-->
-                            <!--<img class="black-logo" src="images/logo.png" alt="ByteBuds">-->
-                            <!--<img class="black-logo" src="images/logo-white.png" alt="ByteBuds">-->
+    <!--<img class="black-logo" src="images/logo.png" alt="ByteBuds">-->    <!--<img class="black-logo" src="images/logo-white.png" alt="ByteBuds">-->
                         </a>
                     </div>
                     <!--/Logo -->
@@ -68,20 +64,19 @@
                             <div class="outer">
                                 <div class="inner">
                                     <ul data-breakpoint="10025" class="flexnav">
-                                        <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition"
-                                                                          href="index.html">
+                                        <li class="link menu-timeline"><a class="ajax-link active"
+                                                                          data-type="page-transition" href="index.html">
                                             <div class="before-span"><span data-hover="Portfolio">Portfolio</span></div>
                                         </a></li>
                                         <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition"
                                                                           href="about.html">
                                             <div class="before-span"><span data-hover="About">About</span></div>
                                         </a></li>
-                                        <li class="link menu-timeline"><a class="ajax-link active"
-                                                                          data-type="page-transition"
+                                        <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition"
                                                                           href="contact.html">
                                             <div class="before-span"><span data-hover="Contact">Contact</span></div>
                                         </a></li>
-                                        <li class="link menu-timeline"><a class="" href="contact.html#">
+                                        <li class="link menu-timeline"><a class="" href="project06.html#">
                                             <div class="before-span"><span data-hover="More">More</span></div>
                                         </a>
                                             <ul>
@@ -131,15 +126,35 @@
                 <div id="main">
 
                     <!-- Hero Section -->
-                    <div id="hero">
+                    <div id="hero" class="has-image">
                         <div id="hero-styles">
-                            <div id="hero-caption"
-                                 class="content-max-width text-align-center parallax-scroll-caption inline-title">
+                            <div id="hero-caption" class="content-max-width parallax-scroll-caption">
                                 <div class="inner">
-                                    <h5 class="hero-subtitle"><span>Let's work together</span></h5>
-                                    <h1 class="hero-title"><span>Contact Us</span></h1>
+                                    <div class="hero-title"><span>Upper Floor</span></div>
+                                    <div class="hero-subtitle"><span>Subtitle Here</span></div>
                                 </div>
                             </div>
+                            <div id="hero-footer">
+                                <div class="hero-footer-left">
+                                    <div class="button-wrap left scroll-down">
+                                        <div class="icon-wrap parallax-wrap">
+                                            <div class="button-icon parallax-element">
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="button-text sticky left"><span data-hover="Scroll to navigate">Scroll to navigate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-footer-right">
+                                    <div id="share" class="page-action-content" data-text="Share:"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hero-image-wrapper">
+                        <div id="hero-background-layer" class="parallax-scroll-image">
+                            <div id="hero-bg-image" style="background-image:url(images/06hero.jpg)"></div>
                         </div>
                     </div>
                     <!--/Hero Section -->
@@ -147,124 +162,60 @@
 
                     <!-- Main Content -->
                     <div id="main-content">
-                        <!-- Main Page Content -->
-                        <div id="main-page-content" class="content-max-width">
+                        <div id="main-page-content">
 
 
                             <!-- Row -->
-                            <div class="content-row full light-section" data-bgcolor="#eee">
-                                <!--                                <div id="map_canvas"></div>-->
-                                <h1 style="font-bold: 400; text-align: center; padding: 30px;">Map section</h1>
-                            </div>
-                            <!--/Row -->
+                            <div class="content-row row_padding_top light-section" data-bgcolor="#fff">
 
-
-                            <!-- Row -->
-                            <div class="content-row  text-align-center light-section" data-bgcolor="#fff">
-
-                                <h1 class="big-title has-mask inline-title">Use the form below for general enquires</h1>
-
-                            </div>
-                            <!--/Row -->
-
-
-                            <!-- Row -->
-                            <div class="content-row text-align-center light-section" data-bgcolor="#fff">
-
-                                <hr>
-
-                                <!-- Contact Formular -->
-                                <div id="contact-formular">
-
-                                    <div id="message"></div>
-
-                                    <form method="post" action="" name="contactform" id="contactform">
-                                        <div class="name-box has-animation" data-delay="100">
-                                            <input name="name" type="text" id="name" size="30" value=""
-                                                   placeholder="What's Your Name"><label class="input_label"></label>
-                                        </div>
-                                        <div class="email-box has-animation" data-delay="150">
-                                            <input name="email" type="text" id="email" size="30" value=""
-                                                   placeholder="Your Email"><label class="input_label"></label>
-                                        </div>
-                                        <div class="message-box has-animation" data-delay="100">
-                                            <textarea name="comments" cols="40" rows="4" id="comments"
-                                                      placeholder="Tell Us About Your Project"></textarea><label
-                                                class="input_label slow"></label>
-                                        </div>
-                                        <div class="verify-box has-animation" data-delay="100">
-                                            <ul class="verify-sum">
-                                                <li>1</li>
-                                                <li>+</li>
-                                                <li>3</li>
-                                                <li>=</li>
-                                            </ul>
-                                            <input name="verify" type="text" id="verify" size="4" value=""/>
-                                            <p class="required">Captcha</p>
-                                        </div>
-                                        <div class="button-box has-animation" data-delay="100">
-                                            <div class="clapat-button-wrap circle parallax-wrap bigger">
-                                                <div class="clapat-button parallax-element">
-                                                    <div class="button-border  outline parallax-element-second"><input
-                                                            type="submit" class="send_message" id="submit"
-                                                            value="Submit"/></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-
+                                <div class="one_half">
+                                    <figure class="has-animation has-cover" data-delay="0">
+                                        <a href="images/projects/upperfloor01.jpg" class="image-link"><img
+                                                src="images/projects/upperfloor01.jpg" alt="Image Title"></a>
+                                        <figcaption>Image Caption Here</figcaption>
+                                    </figure>
                                 </div>
-                                <!--/Contact Formular -->
+
+                                <div class="one_half last">
+                                    <figure class="has-animation has-cover" data-delay="200">
+                                        <a href="images/projects/upperfloor02.jpg" class="image-link"><img
+                                                src="images/projects/upperfloor02.jpg" alt="Image Title"></a>
+                                        <figcaption>Image Caption Here</figcaption>
+                                    </figure>
+                                </div>
+
                             </div>
                             <!--/Row -->
 
 
                             <!-- Row -->
-                            <div class="content-row small text-align-center row_padding_top light-section"
+                            <div class="content-row row_padding_top row_padding_bottom text-align-center light-section"
                                  data-bgcolor="#fff">
 
-                                <div class="one_third has-animation" data-delay="100">
+                                <h1 class="has-mask big-title inline-title" data-delay="150">The only way she can escape
+                                    it was to jump.</h1>
 
-                                    <div class="box-icon-wrapper">
-                                        <div class="box-icon">
-                                            <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="box-icon-content">
-                                            <h5 class="no-margins"><a href="mailto:office@framework.com"
-                                                                      class="link"><span>office@framework.com</span></a>
-                                            </h5>
-                                            <p>Email</p>
-                                        </div>
-                                    </div>
+                            </div>
+                            <!--/Row -->
 
+
+                            <!-- Row -->
+                            <div class="content-row light-section" data-bgcolor="#fff">
+
+                                <div class="one_half">
+                                    <figure class="has-animation has-cover" data-delay="0">
+                                        <a href="images/projects/upperfloor03.jpg" class="image-link"><img
+                                                src="images/projects/upperfloor03.jpg" alt="Image Title"></a>
+                                        <figcaption>Image Caption Here</figcaption>
+                                    </figure>
                                 </div>
 
-                                <div class="one_third has-animation" data-delay="200">
-
-                                    <div class="box-icon-wrapper">
-                                        <div class="box-icon">
-                                            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="box-icon-content">
-                                            <h5 class="no-margins">35 M Str, New York, USA</h5>
-                                            <p>Address</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class=" one_third last has-animation" data-delay="300">
-
-                                    <div class="box-icon-wrapper">
-                                        <div class="box-icon">
-                                            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="box-icon-content">
-                                            <h5 class="no-margins">0040 (7763) 574-8901</h5>
-                                            <p>Phone</p>
-                                        </div>
-                                    </div>
-
+                                <div class="one_half last">
+                                    <figure class="has-animation has-cover" data-delay="200">
+                                        <a href="images/projects/upperfloor04.jpg" class="image-link"><img
+                                                src="images/projects/upperfloor04.jpg" alt="Image Title"></a>
+                                        <figcaption>Image Caption Here</figcaption>
+                                    </figure>
                                 </div>
 
                             </div>
@@ -275,28 +226,34 @@
                         <!--/Main Page Content -->
 
 
-                        <!-- Page Navigation -->
-                        <div id="page-nav">
-                            <div class="page-nav-wrap">
-                                <div class="page-nav-caption text-align-center content-max-width">
-                                    <div class="inner">
-                                        <a class="page-title ajax-link" data-type="page-transition"
-                                           data-firstline="Next" data-secondline="Page" href="index.html">
-                                            <div class="next-hero-subtitle"><span>See More Works</span></div>
-                                            <div class="next-hero-title"><span>Portfolio</span></div>
-                                        </a>
+                        <!-- Project Navigation -->
+                        <div id="project-nav" class="change-header">
+                            <div class="next-project-wrap">
+                                <div class="next-project-caption content-max-width">
+                                    <a class="all-works link ajax-link" data-type="page-transition" href="index.html">See
+                                        All Works</a>
+                                    <div class="next-caption-wrapper">
+                                        <div class="caption-wrapper">
+                                            <a class="next-ajax-link-project" data-type="page-transition"
+                                               href="project01.html" data-color="#4c484f" data-firstline="Next"
+                                               data-secondline="Project"></a>
+                                            <div class="next-caption">
+                                                <div class="next-hero-title"><span>Garage Style</span></div>
+                                                <div class="next-hero-subtitle"><span>Photography</span></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                        <!--/Page Navigation -->
-
+                        <!--/Project Navigation -->
 
                     </div>
                     <!--/Main Content -->
-
                 </div>
                 <!--/Main -->
+
 
                 <!-- Footer -->
                 <footer class="hidden">
@@ -321,15 +278,21 @@
                             <div class="socials-icon"><i class="fa-solid fa-share-nodes"></i></div>
                             <div class="socials-text">Follow Us</div>
                             <ul class="socials">
-                                <li><span class="parallax-wrap"><a class="parallax-element" href="#"
+                                <li><span class="parallax-wrap"><a class="parallax-element"
+                                                                   href="#"
                                                                    target="_blank">Db</a></span></li>
-                                <li><span class="parallax-wrap"><a class="parallax-element" href="#"
+                                <li><span class="parallax-wrap"><a class="parallax-element"
+                                                                   href="#"
                                                                    target="_blank">Tw</a></span></li>
-                                <li><span class="parallax-wrap"><a class="parallax-element" href="#"
+                                <li><span class="parallax-wrap"><a class="parallax-element"
+                                                                   href="#"
                                                                    target="_blank">Be</a></span></li>
-                                <li><span class="parallax-wrap"><a class="parallax-element" href="#"
+                                <li><span class="parallax-wrap"><a class="parallax-element"
+                                                                   href="#"
                                                                    target="_blank">Fb</a></span></li>
-                                <li><span class="parallax-wrap"><a class="parallax-element" href="#">In</a></span></li>
+                                <li><span class="parallax-wrap"><a class="parallax-element"
+                                                                   href="#">Ig</a></span>
+                                </li>
                             </ul>
                         </div>
 
@@ -341,9 +304,13 @@
             </div>
             <!--/Content Scroll -->
 
-
             <div id="app"></div>
 
+            <div class="next-project-image-wrapper">
+                <div class="next-project-image">
+                    <div class="next-project-image-bg" style="background-image:url(images/01hero.jpg)"></div>
+                </div>
+            </div>
 
         </div>
         <!--/Page Content -->
