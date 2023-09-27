@@ -1,276 +1,470 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <title>Blog Archive | doblack</title>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
 
-<head>
-    <title>Blog Archive | doblack</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+        <link
+            type="image/x-icon"
+            rel="shortcut icon"
+            href="img/favicons/favicon.ico"
+        />
 
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicons/favicon.ico">
+        <link
+            type="image/png"
+            sizes="16x16"
+            rel="icon"
+            href="img/favicons/favicon-16x16.png"
+        />
+        <link
+            type="image/png"
+            sizes="32x32"
+            rel="icon"
+            href="img/favicons/favicon-32x32.png"
+        />
+        <link
+            type="image/png"
+            sizes="96x96"
+            rel="icon"
+            href="img/favicons/favicon-96x96.png"
+        />
+        <link
+            type="image/png"
+            sizes="120x120"
+            rel="icon"
+            href="img/favicons/favicon-120x120.png"
+        />
 
-    <link type="image/png" sizes="16x16" rel="icon" href="img/favicons/favicon-16x16.png">
-    <link type="image/png" sizes="32x32" rel="icon" href="img/favicons/favicon-32x32.png">
-    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/favicon-96x96.png">
-    <link type="image/png" sizes="120x120" rel="icon" href="img/favicons/favicon-120x120.png">
+        <link
+            type="image/png"
+            sizes="72x72"
+            rel="icon"
+            href="img/favicons/android-icon-72x72.png"
+        />
+        <link
+            type="image/png"
+            sizes="96x96"
+            rel="icon"
+            href="img/favicons/android-icon-96x96.png"
+        />
+        <link
+            type="image/png"
+            sizes="144x144"
+            rel="icon"
+            href="img/favicons/android-icon-144x144.png"
+        />
+        <link
+            type="image/png"
+            sizes="192x192"
+            rel="icon"
+            href="img/favicons/android-icon-192x192.png"
+        />
+        <link
+            type="image/png"
+            sizes="512x512"
+            rel="icon"
+            href="img/favicons/android-icon-512x512.png"
+        />
 
-    <link type="image/png" sizes="72x72" rel="icon" href="img/favicons/android-icon-72x72.png">
-    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/android-icon-96x96.png">
-    <link type="image/png" sizes="144x144" rel="icon" href="img/favicons/android-icon-144x144.png">
-    <link type="image/png" sizes="192x192" rel="icon" href="img/favicons/android-icon-192x192.png">
-    <link type="image/png" sizes="512x512" rel="icon" href="img/favicons/android-icon-512x512.png">
+        <link
+            sizes="57x57"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-57x57.png"
+        />
+        <link
+            sizes="60x60"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-60x60.png"
+        />
+        <link
+            sizes="72x72"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-72x72.png"
+        />
+        <link
+            sizes="76x76"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-76x76.png"
+        />
+        <link
+            sizes="114x114"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-114x114.png"
+        />
+        <link
+            sizes="120x120"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-120x120.png"
+        />
+        <link
+            sizes="144x144"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-144x144.png"
+        />
+        <link
+            sizes="152x152"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-152x152.png"
+        />
+        <link
+            sizes="180x180"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-180x180.png"
+        />
 
-    <link sizes="57x57" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-57x57.png">
-    <link sizes="60x60" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-60x60.png">
-    <link sizes="72x72" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-72x72.png">
-    <link sizes="76x76" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-76x76.png">
-    <link sizes="114x114" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-114x114.png">
-    <link sizes="120x120" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-120x120.png">
-    <link sizes="144x144" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-144x144.png">
-    <link sizes="152x152" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-152x152.png">
-    <link sizes="180x180" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-180x180.png">
+        <meta name="msapplication-TileColor" content="#000" />
+        <meta
+            name="msapplication-TileImage"
+            content="img/favicons/mstile-144x144.png"
+        />
+        <meta
+            name="msapplication-square70x70logo"
+            content="img/favicons/mstile-70x70.png"
+        />
+        <meta
+            name="msapplication-square150x150logo"
+            content="img/favicons/mstile-150x150.png"
+        />
+        <meta
+            name="msapplication-wide310x150logo"
+            content="img/favicons/mstile-310x310.png"
+        />
+        <meta
+            name="msapplication-square310x310logo"
+            content="img/favicons/mstile-310x150.png"
+        />
+    </head>
 
-
-    <meta name="msapplication-TileColor" content="#000">
-    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
-    <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x310.png">
-    <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x150.png">
-
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="bg-image">
-            <picture class="picture image-cover">
-                <source type="image/jpeg" srcset="img/blog.jpg">
-                <source type="image/webp" srcset="img/blog.webp" class="">
-                <img src="img/blog.jpg" alt="">
-            </picture>
-        </div>
-        <header class="top-panel section-relative with-fixed-menu">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <a href="index.html" class="logo"><b>do</b><i>lish.</i></a>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="collections.html">Collections</a></li>
-                            <li><a href="gallery.html">Insta Gallery</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-btn fixed" id="js-menu-btn">Menu</div>
-                </div>
+    <body>
+        <div class="container">
+            <div class="bg-image">
+                <picture class="picture image-cover">
+                    <source type="image/jpeg" srcset="img/blog.jpg" />
+                    <source type="image/webp" srcset="img/blog.webp" class="" />
+                    <img src="img/blog.jpg" alt="" />
+                </picture>
             </div>
-        </header>
-        <section class="page-main-screen section-relative">
-            <div class="wrap">
-                <div class="wrap_float">
-                    <div class="breadcrumbs">
-                        <a href="blog.html#">Home</a> / <a href="blog.html#" class="current">Collections</a>
-                    </div>
-                    <div class="page-info">
-                        <h1 class="page-title">
-                            <span><b>Blog</b><sup class="count">(34)</sup></span>
-                        </h1>
-                    </div>
-                    <div class="filter-link">
-                        <select>
-                            <option value="Category 1">Category 1</option>
-                            <option value="Category 2">Category 2</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="blog-section section-relative">
-            <div class="wrap">
-                <div class="wrap_float">
-                    <div class="blog-list with-sticky">
-                        <a href="blog-single.html" class="blog-item without-img">
-                            <div class="blog-item-info">
-                                <h3 class="blog-item-title">
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-                                </h3>
-                                <div class="blog-item-subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad dignissimos molestias!
-                                </div>
-                            </div>
-                        </a>
-                        <a href="blog-single.html" class="blog-item without-img">
-                            <div class="blog-item-info">
-                                <h3 class="blog-item-title">
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-                                </h3>
-                                <div class="blog-item-subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad dignissimos molestias!
-                                </div>
-                            </div>
-                        </a>
-                        <a href="blog-single.html" class="blog-item">
-                            <div class="blog-item-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-2.jpg">
-                                    <source type="image/webp" srcset="img/post-img-2.webp" class="">
-                                    <img src="img/post-img-2.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="blog-item-info">
-                                <h3 class="blog-item-title">
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-                                </h3>
-                                <div class="blog-item-subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad dignissimos molestias!
-                                </div>
-                            </div>
-                        </a>
-                        <a href="blog-single.html" class="blog-item">
-                            <div class="blog-item-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-3.jpg">
-                                    <source type="image/webp" srcset="img/post-img-3.webp" class="">
-                                    <img src="img/post-img-3.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="blog-item-info">
-                                <h3 class="blog-item-title"><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></h3>
-                                <div class="blog-item-subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad dignissimos molestias!
-                                </div>
-                            </div>
-                        </a>
-                        <a href="blog-single.html" class="blog-item">
-                            <div class="blog-item-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/insta-3.jpg">
-                                    <source type="image/webp" srcset="img/insta-3.webp" class="">
-                                    <img src="img/insta-3.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="blog-item-info">
-                                <h3 class="blog-item-title"><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></h3>
-                                <div class="blog-item-subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ad dignissimos molestias!
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="pagination">
-                        <ul>
-                            <li><a href="blog.html#">1</a></li>
-                            <li><a href="blog.html#">2</a></li>
-                            <li><a href="blog.html#" class="current">3</a></li>
-                            <li><a href="blog.html#">4</a></li>
-                            <li><a href="blog.html#">...</a></li>
-                            <li><a href="blog.html#">124</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer section-relative">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <div class="footer-top">
-                        <div class="footer-col first-col">
-                            <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
-                        </div>
-                        <div class="footer-col">
+            <header class="top-panel section-relative with-fixed-menu">
+                <div class="wrap wide">
+                    <div class="wrap_float">
+                        <a href="index.html" class="logo"
+                            ><b>do</b><i>lish.</i></a
+                        >
+                        <div class="menu">
                             <ul>
-                                <li><a href="collections.html">Collections</a></li>
-                                <li><a href="gallery.html">Insta Gallery</a></li>
+                                <li>
+                                    <a href="collections.html">Collections</a>
+                                </li>
+                                <li>
+                                    <a href="gallery.html">Insta Gallery</a>
+                                </li>
                                 <li><a href="blog.html">Blog</a></li>
                             </ul>
                         </div>
-                        <div class="footer-col socials-col">
+                        <div class="menu-btn fixed" id="js-menu-btn">Menu</div>
+                    </div>
+                </div>
+            </header>
+            <section class="page-main-screen section-relative">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="breadcrumbs">
+                            <a href="blog.html#">Home</a> /
+                            <a href="blog.html#" class="current">Collections</a>
+                        </div>
+                        <div class="page-info">
+                            <h1 class="page-title">
+                                <span
+                                    ><b>Blog</b
+                                    ><sup class="count">(34)</sup></span
+                                >
+                            </h1>
+                        </div>
+                        <div class="filter-link">
+                            <select>
+                                <option value="Category 1">Category 1</option>
+                                <option value="Category 2">Category 2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog-section section-relative">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="blog-list with-sticky">
+                            <a
+                                href="blog-single.html"
+                                class="blog-item without-img"
+                            >
+                                <div class="blog-item-info">
+                                    <h3 class="blog-item-title">
+                                        <span
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing.</span
+                                        >
+                                    </h3>
+                                    <div class="blog-item-subtitle">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Illo ad dignissimos
+                                        molestias!
+                                    </div>
+                                </div>
+                            </a>
+                            <a
+                                href="blog-single.html"
+                                class="blog-item without-img"
+                            >
+                                <div class="blog-item-info">
+                                    <h3 class="blog-item-title">
+                                        <span
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing.</span
+                                        >
+                                    </h3>
+                                    <div class="blog-item-subtitle">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Illo ad dignissimos
+                                        molestias!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="blog-single.html" class="blog-item">
+                                <div class="blog-item-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-2.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-2.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-2.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="blog-item-info">
+                                    <h3 class="blog-item-title">
+                                        <span
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing.</span
+                                        >
+                                    </h3>
+                                    <div class="blog-item-subtitle">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Illo ad dignissimos
+                                        molestias!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="blog-single.html" class="blog-item">
+                                <div class="blog-item-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-3.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-3.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-3.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="blog-item-info">
+                                    <h3 class="blog-item-title">
+                                        <span
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing.</span
+                                        >
+                                    </h3>
+                                    <div class="blog-item-subtitle">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Illo ad dignissimos
+                                        molestias!
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="blog-single.html" class="blog-item">
+                                <div class="blog-item-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/insta-3.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/insta-3.webp"
+                                            class=""
+                                        />
+                                        <img src="img/insta-3.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="blog-item-info">
+                                    <h3 class="blog-item-title">
+                                        <span
+                                            >Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing.</span
+                                        >
+                                    </h3>
+                                    <div class="blog-item-subtitle">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Illo ad dignissimos
+                                        molestias!
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pagination">
+                            <ul>
+                                <li><a href="blog.html#">1</a></li>
+                                <li><a href="blog.html#">2</a></li>
+                                <li>
+                                    <a href="blog.html#" class="current">3</a>
+                                </li>
+                                <li><a href="blog.html#">4</a></li>
+                                <li><a href="blog.html#">...</a></li>
+                                <li><a href="blog.html#">124</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer section-relative">
+                <div class="wrap wide">
+                    <div class="wrap_float">
+                        <div class="footer-top">
+                            <div class="footer-col first-col">
+                                <a href="index.html" class="logo"
+                                    ><b>do</b><i>black.</i></a
+                                >
+                            </div>
+                            <div class="footer-col">
+                                <ul>
+                                    <li>
+                                        <a href="collections.html"
+                                            >Collections</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">Insta Gallery</a>
+                                    </li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col socials-col">
+                                <div class="socials">
+                                    <a href="blog.html#">Be</a>
+                                    <a href="blog.html#">Ig</a>
+                                    <a href="blog.html#">Fb</a>
+                                </div>
+                            </div>
+                            <div class="footer-col">
+                                <ul>
+                                    <li>
+                                        <a href="blog.html#">Cookie Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col last-col">
+                                <ul>
+                                    <li>
+                                        <a href="blog.html#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <p>© Doblack. 2023. | All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="menu-section" id="js-menu-section">
+                <div class="wrap wide">
+                    <div class="wrap_float">
+                        <div class="menu-col">
+                            <a href="index.html" class="logo"
+                                ><b>do</b><i>black.</i></a
+                            >
+                        </div>
+                        <div class="menu-col" style="margin-left: 36px">
+                            <div class="col-title">Collections</div>
+                            <ul class="col-ul">
+                                <li>
+                                    <a href="collections.html"
+                                        >All Collections</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="collection-single.html"
+                                        >Collections Single</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="gallery.html">Insta Gallery</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-col">
+                            <div class="col-title">Blog</div>
+                            <ul class="col-ul">
+                                <li><a href="blog.html">Blog Category</a></li>
+                                <li>
+                                    <a href="blog-single.html">Single Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-col">
+                            <div class="col-title">Other</div>
+                            <ul class="col-ul">
+                                <li><a href="404.html">404 Page</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-col last-col">
+                            <div class="close" id="js-menu-close">Close</div>
                             <div class="socials">
                                 <a href="blog.html#">Be</a>
                                 <a href="blog.html#">Ig</a>
                                 <a href="blog.html#">Fb</a>
                             </div>
                         </div>
-                        <div class="footer-col">
-                            <ul>
-                                <li><a href="blog.html#">Cookie Policy</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-col last-col">
-                            <ul>
-                                <li><a href="blog.html#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-bottom">
-                        <p>© Doblack. 2023. | All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <div class="menu-section" id="js-menu-section">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <div class="menu-col">
-                        <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
-                    </div>
-                    <div class="menu-col" style="margin-left: 36px">
-                        <div class="col-title">Collections</div>
-                        <ul class="col-ul">
-                            <li><a href="collections.html">All Collections</a></li>
-                            <li><a href="collection-single.html">Collections Single</a></li>
-                            <li><a href="gallery.html">Insta Gallery</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-col">
-                        <div class="col-title">Blog</div>
-                        <ul class="col-ul">
-                            <li><a href="blog.html">Blog Category</a></li>
-                            <li><a href="blog-single.html">Single Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-col">
-                        <div class="col-title">Other</div>
-                        <ul class="col-ul">
-                            <li><a href="404.html">404 Page</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-col last-col">
-                        <div class="close" id="js-menu-close">Close</div>
-                        <div class="socials">
-                            <a href="blog.html#">Be</a>
-                            <a href="blog.html#">Ig</a>
-                            <a href="blog.html#">Fb</a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="bottom-message success-message" id="success-message">
-        <span>
-            Thanks! Your message has been sent
-        </span>
-    </div>
+        <div class="bottom-message success-message" id="success-message">
+            <span> Thanks! Your message has been sent </span>
+        </div>
 
-    <div class="bottom-message error-message" id="error-message">
-        <span>
-            Error message!
-        </span>
-    </div>
+        <div class="bottom-message error-message" id="error-message">
+            <span> Error message! </span>
+        </div>
 
-    <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="js/device.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/jquery.mousewheel.min.js"></script>
-    <script src="js/jquery.placeholder.label.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/device.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/lightgallery.min.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+        <script src="js/jquery.placeholder.label.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

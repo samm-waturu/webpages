@@ -1,479 +1,754 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <title>Collections Single | doblack</title>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
 
-<head>
-    <title>Collections Single | doblack</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+        <link
+            type="image/x-icon"
+            rel="shortcut icon"
+            href="img/favicons/favicon.ico"
+        />
 
-    <link type="image/x-icon" rel="shortcut icon" href="img/favicons/favicon.ico">
+        <link
+            type="image/png"
+            sizes="16x16"
+            rel="icon"
+            href="img/favicons/favicon-16x16.png"
+        />
+        <link
+            type="image/png"
+            sizes="32x32"
+            rel="icon"
+            href="img/favicons/favicon-32x32.png"
+        />
+        <link
+            type="image/png"
+            sizes="96x96"
+            rel="icon"
+            href="img/favicons/favicon-96x96.png"
+        />
+        <link
+            type="image/png"
+            sizes="120x120"
+            rel="icon"
+            href="img/favicons/favicon-120x120.png"
+        />
 
-    <link type="image/png" sizes="16x16" rel="icon" href="img/favicons/favicon-16x16.png">
-    <link type="image/png" sizes="32x32" rel="icon" href="img/favicons/favicon-32x32.png">
-    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/favicon-96x96.png">
-    <link type="image/png" sizes="120x120" rel="icon" href="img/favicons/favicon-120x120.png">
+        <link
+            type="image/png"
+            sizes="72x72"
+            rel="icon"
+            href="img/favicons/android-icon-72x72.png"
+        />
+        <link
+            type="image/png"
+            sizes="96x96"
+            rel="icon"
+            href="img/favicons/android-icon-96x96.png"
+        />
+        <link
+            type="image/png"
+            sizes="144x144"
+            rel="icon"
+            href="img/favicons/android-icon-144x144.png"
+        />
+        <link
+            type="image/png"
+            sizes="192x192"
+            rel="icon"
+            href="img/favicons/android-icon-192x192.png"
+        />
+        <link
+            type="image/png"
+            sizes="512x512"
+            rel="icon"
+            href="img/favicons/android-icon-512x512.png"
+        />
 
-    <link type="image/png" sizes="72x72" rel="icon" href="img/favicons/android-icon-72x72.png">
-    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/android-icon-96x96.png">
-    <link type="image/png" sizes="144x144" rel="icon" href="img/favicons/android-icon-144x144.png">
-    <link type="image/png" sizes="192x192" rel="icon" href="img/favicons/android-icon-192x192.png">
-    <link type="image/png" sizes="512x512" rel="icon" href="img/favicons/android-icon-512x512.png">
+        <link
+            sizes="57x57"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-57x57.png"
+        />
+        <link
+            sizes="60x60"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-60x60.png"
+        />
+        <link
+            sizes="72x72"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-72x72.png"
+        />
+        <link
+            sizes="76x76"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-76x76.png"
+        />
+        <link
+            sizes="114x114"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-114x114.png"
+        />
+        <link
+            sizes="120x120"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-120x120.png"
+        />
+        <link
+            sizes="144x144"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-144x144.png"
+        />
+        <link
+            sizes="152x152"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-152x152.png"
+        />
+        <link
+            sizes="180x180"
+            rel="apple-touch-icon"
+            href="img/favicons/apple-touch-icon-180x180.png"
+        />
 
-    <link sizes="57x57" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-57x57.png">
-    <link sizes="60x60" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-60x60.png">
-    <link sizes="72x72" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-72x72.png">
-    <link sizes="76x76" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-76x76.png">
-    <link sizes="114x114" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-114x114.png">
-    <link sizes="120x120" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-120x120.png">
-    <link sizes="144x144" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-144x144.png">
-    <link sizes="152x152" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-152x152.png">
-    <link sizes="180x180" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-180x180.png">
+        <meta name="msapplication-TileColor" content="#000" />
+        <meta
+            name="msapplication-TileImage"
+            content="img/favicons/mstile-144x144.png"
+        />
+        <meta
+            name="msapplication-square70x70logo"
+            content="img/favicons/mstile-70x70.png"
+        />
+        <meta
+            name="msapplication-square150x150logo"
+            content="img/favicons/mstile-150x150.png"
+        />
+        <meta
+            name="msapplication-wide310x150logo"
+            content="img/favicons/mstile-310x310.png"
+        />
+        <meta
+            name="msapplication-square310x310logo"
+            content="img/favicons/mstile-310x150.png"
+        />
+    </head>
 
-
-
-    <meta name="msapplication-TileColor" content="#000">
-    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
-    <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x310.png">
-    <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x150.png">
-
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="bg-image">
-            <picture class="picture image-cover">
-                <source type="image/jpeg" srcset="img/main-img.jpg">
-                <source type="image/webp" srcset="img/main-img.webp" class="">
-                <img src="img/main-img-3.jpg" alt="">
-            </picture>
-        </div>
-        <header class="top-panel section-relative with-fixed-menu">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <a href="index.html" class="logo" ><b>do</b><i>black.</i></a>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="collections.html">Collections</a></li>
-                            <li><a href="gallery.html">Insta Gallery</a></li>
-
-                        </ul>
-                    </div>
-                    <div class="menu-btn fixed" id="js-menu-btn">Menu</div>
-                </div>
+    <body>
+        <div class="container">
+            <div class="bg-image">
+                <picture class="picture image-cover">
+                    <source type="image/jpeg" srcset="img/main-img.jpg" />
+                    <source
+                        type="image/webp"
+                        srcset="img/main-img.webp"
+                        class=""
+                    />
+                    <img src="img/main-img-3.jpg" alt="" />
+                </picture>
             </div>
-        </header>
-        <section class="page-main-screen section-relative">
-            <div class="wrap">
-                <div class="wrap_float">
-                    <div class="breadcrumbs">
-                        <a href="collection-single.html#">Home</a> / <a href="collection-single.html#" class="current">Collections</a>
-                    </div>
-                    <div class="page-info">
-                        <h1 class="page-title">
-                            <span><b>Exo</b><i>tic</i></span>
-                        </h1>
-                        <div class="page-subtitle">Collection Clothes</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="collections-main">
-            <div class="collections-items first-large">
-                <a href="collections.html" class="collections-item">
-                    <div class="collections-item-image">
-                        <picture class="picture image-cover">
-                            <source type="image/jpeg" srcset="img/single-1.jpg">
-                            <source type="image/webp" srcset="img/single-1.webp" class="">
-                            <img src="img/single-1.jpg" alt="">
-                        </picture>
-                    </div>
-                    <div class="collections-item-info">
-                        <div class="_subtitle">Clothes</div>
-                        <h3 class="_title">Chopper and blouse</h3>
-                    </div>
-                </a>
-                <div class="collections-item">
-                    <div class="collections-item-image">
-                        <picture class="picture image-cover">
-                            <source type="image/jpeg" srcset="img/single-2.jpg">
-                            <source type="image/webp" srcset="img/single-2.webp" class="">
-                            <img src="img/single-2.jpg" alt="">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-            <div class="collections-items fullwidth">
-                <a href="collections.html" class="collections-item">
-                    <div class="collections-item-image">
-                        <picture class="picture image-cover">
-                            <source type="image/jpeg" srcset="img/single-3.jpg">
-                            <source type="image/webp" srcset="img/single-3.webp" class="">
-                            <img src="img/single-3.jpg" alt="">
-                        </picture>
-                    </div>
-                    <div class="collections-item-info">
-                        <div class="_subtitle">Clothes</div>
-                        <div class="_title">Chopper and blouse</div>
-                    </div>
-                </a>
-            </div>
-            <div class="content-block">
-                <div class="wrap">
+            <header class="top-panel section-relative with-fixed-menu">
+                <div class="wrap wide">
                     <div class="wrap_float">
-                        <div class="content">
-                            <h2>Heading Two</h2>
-                            <h3>Heading Three</h3>
-                            <h4>Heading Four</h4>
-                            <h5>Heading Five</h5>
-                            <h6>Heading Six</h6>
-                            <h2>Unordered List</h2>
+                        <a href="index.html" class="logo"
+                            ><b>do</b><i>black.</i></a
+                        >
+                        <div class="menu">
                             <ul>
                                 <li>
-                                    Lorem ipsum dolor sit amet.
+                                    <a href="collections.html">Collections</a>
                                 </li>
                                 <li>
-                                    Lorem ipsum dolor sit amet, <a href="collection-single.html#">consectetur</a> adipisicing elit. Maxime eaque, ducimus animi repellendus fuga sed, autem ipsa labore iure amet perferendis, beatae assumenda, optio.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur.
+                                    <a href="gallery.html">Insta Gallery</a>
                                 </li>
                             </ul>
-                            <h2>Ordered List</h2>
-                            <ol>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid veniam est cupiditate.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </li>
-                                <li>
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </li>
-                            </ol>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis iure molestias dolores, reprehenderit aperiam veniam voluptas eius, neque voluptates aspernatur maiores doloribus optio temporibus sequi, culpa ducimus! Fugit dolores at perspiciatis maxime necessitatibus repellendus earum, odio eveniet minima deleniti. Rem pariatur perferendis, impedit beatae, sit aut. Illum eos, ex!
-                            </p>
                         </div>
+                        <div class="menu-btn fixed" id="js-menu-btn">Menu</div>
                     </div>
                 </div>
-            </div>
-            <div class="collections-items first-small">
-                <div class="collections-item">
-                    <div class="collections-item-image">
-                        <picture class="picture image-cover">
-                            <source type="image/jpeg" srcset="img/single-4.jpg">
-                            <source type="image/webp" srcset="img/single-4.webp" class="">
-                            <img src="img/single-4.jpg" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="collections-item">
-                    <div class="collections-item-image">
-                        <picture class="picture image-cover">
-                            <source type="image/jpeg" srcset="img/single-5.jpg">
-                            <source type="image/webp" srcset="img/single-5.webp" class="">
-                            <img src="img/single-5.jpg" alt="">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-            <div class="collections-items">
-                <div class="collections-item video-block">
-                    <div class="video-wrap">
-                        <div class="video-play-btn js-video-play-btn"></div>
-                        <video class="video" poster="img/single-3.jpg">
-                            <source src="video/video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div class="collections-items slider">
-                <div class="collections-slider">
-                    <div class="collections-item">
-                        <div class="collections-item-image">
-                            <picture class="picture image-cover">
-                                <source type="image/jpeg" srcset="img/single-1.jpg">
-                                <source type="image/webp" srcset="img/single-1.webp" class="">
-                                <img src="img/single-1.jpg" alt="">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="collections-item">
-                        <div class="collections-item-image">
-                            <picture class="picture image-cover">
-                                <source type="image/jpeg" srcset="img/single-2.jpg">
-                                <source type="image/webp" srcset="img/single-2.webp" class="">
-                                <img src="img/single-2.jpg" alt="">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="collections-item">
-                        <div class="collections-item-image">
-                            <picture class="picture image-cover">
-                                <source type="image/jpeg" srcset="img/single-6.jpg">
-                                <source type="image/webp" srcset="img/single-6.webp" class="">
-                                <img src="img/single-6.jpg" alt="">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="collections-item">
-                        <div class="collections-item-image">
-                            <picture class="picture image-cover">
-                                <source type="image/jpeg" srcset="img/single-2.jpg">
-                                <source type="image/webp" srcset="img/single-2.webp" class="">
-                                <img src="img/single-2.jpg" alt="">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collection-footer">
+            </header>
+            <section class="page-main-screen section-relative">
                 <div class="wrap">
                     <div class="wrap_float">
-                        <div class="columns">
-                            <div class="col">
-                                <div class="col-title">Designer</div>
-                                <ul class="col-ul">
-                                    <li><a href="collection-single.html#">Kenneth Ize</a></li>
-                                    <li><a href="collection-single.html#">Zaur Sho</a></li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <div class="col-title">Model</div>
-                                <ul class="col-ul">
-                                    <li><a href="collection-single.html#">Oluchi Oluchi</a></li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <div class="col-title">Photographer</div>
-                                <ul class="col-ul">
-                                    <li><a href="collection-single.html#">Oladimeji Odunsi</a></li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <div class="col-title">Retoucher</div>
-                                <ul class="col-ul">
-                                    <li><a href="collection-single.html#">Samwel Muiruri</a></li>
-                                </ul>
-                            </div>
+                        <div class="breadcrumbs">
+                            <a href="collection-single.html#">Home</a> /
+                            <a href="collection-single.html#" class="current"
+                                >Collections</a
+                            >
                         </div>
-                        <div class="source-info">
-                            <p>You can buy clothes here:</p>
-                            <a href="collection-single.html#" class="source-link">site.com</a>
+                        <div class="page-info">
+                            <h1 class="page-title">
+                                <span><b>Exo</b><i>tic</i></span>
+                            </h1>
+                            <div class="page-subtitle">Collection Clothes</div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-        <section class="posts-section other-posts section-relative">
-            <div class="wrap">
-                <div class="wrap_float">
-                    <div class="posts-list">
-                        <a href="collection-single.html" class="post-item">
-                            <div class="post-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-1.jpg">
-                                    <source type="image/webp" srcset="img/post-img-1.webp" class="">
-                                    <img src="img/post-img-1.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="post-item-head">
-                                <div class="post-tags">
-                                    <div class="tag">New</div>
-                                    <div class="tag">New</div>
-                                </div>
-                            </div>
-                            <div class="post-item-body">
-                                <div class="post-category">Clothes</div>
-                                <h3 class="post-title">
-                                    <span>Qui dolorem eum fugiat</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <a href="collection-single.html" class="post-item">
-                            <div class="post-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-2.jpg">
-                                    <source type="image/webp" srcset="img/post-img-2.webp" class="">
-                                    <img src="img/post-img-2.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="post-item-head">
-                                <div class="post-tags">
-                                    <div class="tag">New</div>
-                                    <div class="tag">New</div>
-                                </div>
-                            </div>
-                            <div class="post-item-body">
-                                <div class="post-category">Clothes</div>
-                                <h3 class="post-title">
-                                    <span>Qui dolorem</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <a href="collection-single.html" class="post-item">
-                            <div class="post-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-3.jpg">
-                                    <source type="image/webp" srcset="img/post-img-3.webp" class="">
-                                    <img src="img/post-img-3.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="post-item-head">
-                                <div class="post-tags">
-                                    <div class="tag">New</div>
-                                    <div class="tag">New</div>
-                                </div>
-                            </div>
-                            <div class="post-item-body">
-                                <div class="post-category">Clothes</div>
-                                <h3 class="post-title">
-                                    <span>Qui dolorem eum fugiat</span>
-                                </h3>
-                            </div>
-                        </a>
-                        <a href="collection-single.html" class="post-item">
-                            <div class="post-image">
-                                <picture class="picture image-cover">
-                                    <source type="image/jpeg" srcset="img/post-img-4.jpg">
-                                    <source type="image/webp" srcset="img/post-img-4.webp" class="">
-                                    <img src="img/post-img-4.jpg" alt="">
-                                </picture>
-                            </div>
-                            <div class="post-item-head">
-                                <div class="post-tags">
-                                    <div class="tag">New</div>
-                                    <div class="tag">New</div>
-                                </div>
-                            </div>
-                            <div class="post-item-body">
-                                <div class="post-category">Clothes</div>
-                                <h3 class="post-title">
-                                    <span>Qui dolorem eum fugiat</span>
-                                </h3>
-                            </div>
-                        </a>
+            </section>
+            <div class="collections-main">
+                <div class="collections-items first-large">
+                    <a href="collections.html" class="collections-item">
+                        <div class="collections-item-image">
+                            <picture class="picture image-cover">
+                                <source
+                                    type="image/jpeg"
+                                    srcset="img/single-1.jpg"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcset="img/single-1.webp"
+                                    class=""
+                                />
+                                <img src="img/single-1.jpg" alt="" />
+                            </picture>
+                        </div>
+                        <div class="collections-item-info">
+                            <div class="_subtitle">Clothes</div>
+                            <h3 class="_title">Chopper and blouse</h3>
+                        </div>
+                    </a>
+                    <div class="collections-item">
+                        <div class="collections-item-image">
+                            <picture class="picture image-cover">
+                                <source
+                                    type="image/jpeg"
+                                    srcset="img/single-2.jpg"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcset="img/single-2.webp"
+                                    class=""
+                                />
+                                <img src="img/single-2.jpg" alt="" />
+                            </picture>
+                        </div>
                     </div>
-                    <a href="collections.html" class="show-more-block">
-                        <span>
-                            View all <br>collections
-                        </span>
+                </div>
+                <div class="collections-items fullwidth">
+                    <a href="collections.html" class="collections-item">
+                        <div class="collections-item-image">
+                            <picture class="picture image-cover">
+                                <source
+                                    type="image/jpeg"
+                                    srcset="img/single-3.jpg"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcset="img/single-3.webp"
+                                    class=""
+                                />
+                                <img src="img/single-3.jpg" alt="" />
+                            </picture>
+                        </div>
+                        <div class="collections-item-info">
+                            <div class="_subtitle">Clothes</div>
+                            <div class="_title">Chopper and blouse</div>
+                        </div>
                     </a>
                 </div>
-            </div>
-        </section>
-        <footer class="footer section-relative">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <div class="footer-top">
-                        <div class="footer-col first-col">
-                            <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
+                <div class="content-block">
+                    <div class="wrap">
+                        <div class="wrap_float">
+                            <div class="content">
+                                <h2>Heading Two</h2>
+                                <h3>Heading Three</h3>
+                                <h4>Heading Four</h4>
+                                <h5>Heading Five</h5>
+                                <h6>Heading Six</h6>
+                                <h2>Unordered List</h2>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,
+                                        <a href="collection-single.html#"
+                                            >consectetur</a
+                                        >
+                                        adipisicing elit. Maxime eaque, ducimus
+                                        animi repellendus fuga sed, autem ipsa
+                                        labore iure amet perferendis, beatae
+                                        assumenda, optio.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur.
+                                    </li>
+                                </ul>
+                                <h2>Ordered List</h2>
+                                <ol>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Aliquid veniam est
+                                        cupiditate.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet, consectetur.
+                                    </li>
+                                </ol>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Rerum omnis iure molestias
+                                    dolores, reprehenderit aperiam veniam
+                                    voluptas eius, neque voluptates aspernatur
+                                    maiores doloribus optio temporibus sequi,
+                                    culpa ducimus! Fugit dolores at perspiciatis
+                                    maxime necessitatibus repellendus earum,
+                                    odio eveniet minima deleniti. Rem pariatur
+                                    perferendis, impedit beatae, sit aut. Illum
+                                    eos, ex!
+                                </p>
+                            </div>
                         </div>
-                        <div class="footer-col">
-                            <ul>
-                                <li><a href="collection-single.html#">Collections</a></li>
-                                <li><a href="collection-single.html#">Insta Gallery</a></li>
-
+                    </div>
+                </div>
+                <div class="collections-items first-small">
+                    <div class="collections-item">
+                        <div class="collections-item-image">
+                            <picture class="picture image-cover">
+                                <source
+                                    type="image/jpeg"
+                                    srcset="img/single-4.jpg"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcset="img/single-4.webp"
+                                    class=""
+                                />
+                                <img src="img/single-4.jpg" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="collections-item">
+                        <div class="collections-item-image">
+                            <picture class="picture image-cover">
+                                <source
+                                    type="image/jpeg"
+                                    srcset="img/single-5.jpg"
+                                />
+                                <source
+                                    type="image/webp"
+                                    srcset="img/single-5.webp"
+                                    class=""
+                                />
+                                <img src="img/single-5.jpg" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="collections-items">
+                    <div class="collections-item video-block">
+                        <div class="video-wrap">
+                            <div class="video-play-btn js-video-play-btn"></div>
+                            <video class="video" poster="img/single-3.jpg">
+                                <source
+                                    src="video/video.mp4"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="collections-items slider">
+                    <div class="collections-slider">
+                        <div class="collections-item">
+                            <div class="collections-item-image">
+                                <picture class="picture image-cover">
+                                    <source
+                                        type="image/jpeg"
+                                        srcset="img/single-1.jpg"
+                                    />
+                                    <source
+                                        type="image/webp"
+                                        srcset="img/single-1.webp"
+                                        class=""
+                                    />
+                                    <img src="img/single-1.jpg" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="collections-item">
+                            <div class="collections-item-image">
+                                <picture class="picture image-cover">
+                                    <source
+                                        type="image/jpeg"
+                                        srcset="img/single-2.jpg"
+                                    />
+                                    <source
+                                        type="image/webp"
+                                        srcset="img/single-2.webp"
+                                        class=""
+                                    />
+                                    <img src="img/single-2.jpg" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="collections-item">
+                            <div class="collections-item-image">
+                                <picture class="picture image-cover">
+                                    <source
+                                        type="image/jpeg"
+                                        srcset="img/single-6.jpg"
+                                    />
+                                    <source
+                                        type="image/webp"
+                                        srcset="img/single-6.webp"
+                                        class=""
+                                    />
+                                    <img src="img/single-6.jpg" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="collections-item">
+                            <div class="collections-item-image">
+                                <picture class="picture image-cover">
+                                    <source
+                                        type="image/jpeg"
+                                        srcset="img/single-2.jpg"
+                                    />
+                                    <source
+                                        type="image/webp"
+                                        srcset="img/single-2.webp"
+                                        class=""
+                                    />
+                                    <img src="img/single-2.jpg" alt="" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-footer">
+                    <div class="wrap">
+                        <div class="wrap_float">
+                            <div class="columns">
+                                <div class="col">
+                                    <div class="col-title">Designer</div>
+                                    <ul class="col-ul">
+                                        <li>
+                                            <a href="collection-single.html#"
+                                                >Kenneth Ize</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="collection-single.html#"
+                                                >Zaur Sho</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="col-title">Model</div>
+                                    <ul class="col-ul">
+                                        <li>
+                                            <a href="collection-single.html#"
+                                                >Oluchi Oluchi</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="col-title">Photographer</div>
+                                    <ul class="col-ul">
+                                        <li>
+                                            <a href="collection-single.html#"
+                                                >Oladimeji Odunsi</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <div class="col-title">Retoucher</div>
+                                    <ul class="col-ul">
+                                        <li>
+                                            <a href="collection-single.html#"
+                                                >Samwel Muiruri</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="source-info">
+                                <p>You can buy clothes here:</p>
+                                <a
+                                    href="collection-single.html#"
+                                    class="source-link"
+                                    >site.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="posts-section other-posts section-relative">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="posts-list">
+                            <a href="collection-single.html" class="post-item">
+                                <div class="post-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-1.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-1.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-1.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="post-item-head">
+                                    <div class="post-tags">
+                                        <div class="tag">New</div>
+                                        <div class="tag">New</div>
+                                    </div>
+                                </div>
+                                <div class="post-item-body">
+                                    <div class="post-category">Clothes</div>
+                                    <h3 class="post-title">
+                                        <span>Qui dolorem eum fugiat</span>
+                                    </h3>
+                                </div>
+                            </a>
+                            <a href="collection-single.html" class="post-item">
+                                <div class="post-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-2.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-2.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-2.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="post-item-head">
+                                    <div class="post-tags">
+                                        <div class="tag">New</div>
+                                        <div class="tag">New</div>
+                                    </div>
+                                </div>
+                                <div class="post-item-body">
+                                    <div class="post-category">Clothes</div>
+                                    <h3 class="post-title">
+                                        <span>Qui dolorem</span>
+                                    </h3>
+                                </div>
+                            </a>
+                            <a href="collection-single.html" class="post-item">
+                                <div class="post-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-3.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-3.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-3.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="post-item-head">
+                                    <div class="post-tags">
+                                        <div class="tag">New</div>
+                                        <div class="tag">New</div>
+                                    </div>
+                                </div>
+                                <div class="post-item-body">
+                                    <div class="post-category">Clothes</div>
+                                    <h3 class="post-title">
+                                        <span>Qui dolorem eum fugiat</span>
+                                    </h3>
+                                </div>
+                            </a>
+                            <a href="collection-single.html" class="post-item">
+                                <div class="post-image">
+                                    <picture class="picture image-cover">
+                                        <source
+                                            type="image/jpeg"
+                                            srcset="img/post-img-4.jpg"
+                                        />
+                                        <source
+                                            type="image/webp"
+                                            srcset="img/post-img-4.webp"
+                                            class=""
+                                        />
+                                        <img src="img/post-img-4.jpg" alt="" />
+                                    </picture>
+                                </div>
+                                <div class="post-item-head">
+                                    <div class="post-tags">
+                                        <div class="tag">New</div>
+                                        <div class="tag">New</div>
+                                    </div>
+                                </div>
+                                <div class="post-item-body">
+                                    <div class="post-category">Clothes</div>
+                                    <h3 class="post-title">
+                                        <span>Qui dolorem eum fugiat</span>
+                                    </h3>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="collections.html" class="show-more-block">
+                            <span> View all <br />collections </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer section-relative">
+                <div class="wrap wide">
+                    <div class="wrap_float">
+                        <div class="footer-top">
+                            <div class="footer-col first-col">
+                                <a href="index.html" class="logo"
+                                    ><b>do</b><i>black.</i></a
+                                >
+                            </div>
+                            <div class="footer-col">
+                                <ul>
+                                    <li>
+                                        <a href="collection-single.html#"
+                                            >Collections</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="collection-single.html#"
+                                            >Insta Gallery</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col socials-col">
+                                <div class="socials">
+                                    <a href="collection-single.html#">Be</a>
+                                    <a href="collection-single.html#">Ig</a>
+                                    <a href="collection-single.html#">Fb</a>
+                                </div>
+                            </div>
+                            <div class="footer-col">
+                                <ul>
+                                    <li>
+                                        <a href="collection-single.html#"
+                                            >Cookie Policy</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col last-col">
+                                <ul>
+                                    <li>
+                                        <a href="collection-single.html#"
+                                            >Privacy Policy</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <p>© doblack. 2023. | All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            "
+            <div class="menu-section" id="js-menu-section">
+                <div class="wrap wide">
+                    <div class="wrap_float">
+                        <div class="menu-col">
+                            <a href="index.html" class="logo"
+                                ><b>do</b><i>black.</i></a
+                            >
+                        </div>
+                        <div class="menu-col" style="margin-left: 38px">
+                            <div class="col-title">Collections</div>
+                            <ul class="col-ul">
+                                <li>
+                                    <a href="collections.html"
+                                        >All Collections</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="collection-single.html"
+                                        >Collections Single</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="gallery.html">Insta Gallery</a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="footer-col socials-col">
+                        <div class="menu-col">
+                            <div class="col-title">Blog</div>
+                            <ul class="col-ul">
+                                <li><a href="blog.html">Blog Category</a></li>
+                                <li>
+                                    <a href="blog-single.html">Single Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-col">
+                            <div class="col-title">Other</div>
+                            <ul class="col-ul">
+                                <li><a href="404.html">404 Page</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-col last-col">
+                            <div class="close" id="js-menu-close">Close</div>
                             <div class="socials">
                                 <a href="collection-single.html#">Be</a>
                                 <a href="collection-single.html#">Ig</a>
                                 <a href="collection-single.html#">Fb</a>
                             </div>
                         </div>
-                        <div class="footer-col">
-                            <ul>
-                                <li><a href="collection-single.html#">Cookie Policy</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-col last-col">
-                            <ul>
-                                <li><a href="collection-single.html#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-bottom">
-                        <p>© doblack. 2023. | All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </footer>"
-        <div class="menu-section" id="js-menu-section">
-            <div class="wrap wide">
-                <div class="wrap_float">
-                    <div class="menu-col">
-                        <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
-                    </div>
-                    <div class="menu-col" style="margin-left: 38px">
-                        <div class="col-title">Collections</div>
-                        <ul class="col-ul">
-                            <li><a href="collections.html">All Collections</a></li>
-                            <li><a href="collection-single.html">Collections Single</a></li>
-                            <li><a href="gallery.html">Insta Gallery</a></li>
-                        </ul>
-                    </div>
-                       <div class="menu-col">
-                        <div class="col-title">Blog</div>
-                        <ul class="col-ul">
-                            <li><a href="blog.html">Blog Category</a></li>
-                            <li><a href="blog-single.html">Single Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-col">
-                        <div class="col-title">Other</div>
-                        <ul class="col-ul">
-                            <li><a href="404.html">404 Page</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-col last-col">
-                        <div class="close" id="js-menu-close">Close</div>
-                        <div class="socials">
-                            <a href="collection-single.html#">Be</a>
-                            <a href="collection-single.html#">Ig</a>
-                            <a href="collection-single.html#">Fb</a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="bottom-message success-message" id="success-message">
-        <span>
-            Thanks! Your message has been sent
-        </span>
-    </div>
+        <div class="bottom-message success-message" id="success-message">
+            <span> Thanks! Your message has been sent </span>
+        </div>
 
-    <div class="bottom-message error-message" id="error-message">
-        <span>
-            Error message!
-        </span>
-    </div>
+        <div class="bottom-message error-message" id="error-message">
+            <span> Error message! </span>
+        </div>
 
-    <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="js/device.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="js/jquery.mousewheel.min.js"></script>
-    <script src="js/jquery.placeholder.label.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/device.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/lightgallery.min.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+        <script src="js/jquery.placeholder.label.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
