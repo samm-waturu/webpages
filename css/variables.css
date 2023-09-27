@@ -1,0 +1,61 @@
+
+.Regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.Light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.Bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.Medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.MRegular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.MSemiBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.pointer:hover * {
+  cursor: pointer;
+}
+.overflow {
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+.image-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+.block {
+  display: block;
+  float: left;
+}
+.block100 {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.transition {
+  transition: all 0.2s linear;
+}

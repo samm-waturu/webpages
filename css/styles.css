@@ -1,0 +1,39 @@
+/*
+Developed by helloDigi
+https://hellodigi.ru/
+*/
+
+/*------------------------------------------------------------------
+Import library files
+-------------------------------------------------------------------*/
+@import "slick.css";
+@import "lightgallery.min.css";
+
+
+/*------------------------------------------------------------------
+Template styles
+-------------------------------------------------------------------*/
+
+/*Variables styles*/
+@import "variables.css";
+
+/*General styles*/
+@import "general.css";
+
+/*Archive pages styles*/
+@import "archive.css";
+
+/*Single pages styles*/
+@import "single.css";
+
+/*Gallery page styles*/
+@import "gallery.css";
+
+/*About page styles*/
+@import "about.css";
+
+/*Blog pages styles*/
+@import "blog.css";
+
+/*Comments section styles*/
+@import "comments.css";

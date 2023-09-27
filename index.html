@@ -1,201 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Creative Portfolio Template">
-    <meta name="author" content="ByteBuds">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Title -->
-    <title>ByteBuds - portfolio</title>
-    <!-- Favicon -->
-    <!-- All CSS -->
-    <link href="css/__plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/__responsive.css" rel="stylesheet" type="text/css">
+    <title>Main Page | doblack</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link type="image/x-icon" rel="shortcut icon" href="img/favicons/favicon.ico">
+
+    <link type="image/png" sizes="16x16" rel="icon" href="img/favicons/favicon-16x16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="img/favicons/favicon-32x32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/favicon-96x96.png">
+    <link type="image/png" sizes="120x120" rel="icon" href="img/favicons/favicon-120x120.png">
+
+    <link type="image/png" sizes="72x72" rel="icon" href="img/favicons/android-icon-72x72.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="img/favicons/android-icon-96x96.png">
+    <link type="image/png" sizes="144x144" rel="icon" href="img/favicons/android-icon-144x144.png">
+    <link type="image/png" sizes="192x192" rel="icon" href="img/favicons/android-icon-192x192.png">
+    <link type="image/png" sizes="512x512" rel="icon" href="img/favicons/android-icon-512x512.png">
+
+    <link sizes="57x57" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-57x57.png">
+    <link sizes="60x60" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-60x60.png">
+    <link sizes="72x72" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-72x72.png">
+    <link sizes="76x76" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-76x76.png">
+    <link sizes="114x114" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-114x114.png">
+    <link sizes="120x120" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-120x120.png">
+    <link sizes="144x144" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-144x144.png">
+    <link sizes="152x152" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-152x152.png">
+    <link sizes="180x180" rel="apple-touch-icon" href="img/favicons/apple-touch-icon-180x180.png">
+
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x310.png">
+    <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x150.png">
+
 </head>
-<body id="letsGo">
-	<div class="loader">
-		<p class="loader-text">loading</p>
-	</div>
-	<!-- /loader -->
-	<p class="rotate-text">Samm  Samm  Samm  Samm  Samm Samm Samm Samm </p>
-	<!-- /rotate-text (word length should be larger then window width)-->
-	<div class="main-wrapper">
-		<header>
-			<nav>
-				<div class="row">
-					<div class="col-4">
-						<div class="logo">
-							<a href="index.html">Samm </a>
-						</div>
-						<!-- /logo -->
-					</div>
-					<div class="col-8 text-right">
-						<ul class="socials">
-							<li><a href="index.html#"><span class="ti-instagram"></span></a></li>
-							<li><a href="index.html#"><span class="ti-twitter"></span></a></li>
-							<li><a href="index.html#"><span class="ti-linkedin"></span></a></li>
-						</ul>
-						
-						<div class="vertical-divider"></div>
-						
-						<div class="menu-toggle cool-menu">
-							<div class="menu-icon">
-								<div class="menu-line menu-line--1"></div>
-								<div class="menu-line menu-line--2"></div>
-								<div class="menu-line menu-line--3"></div>
-								<div class="menu-line menu-line--4"></div>
-								<div class="menu-line menu-line--5"></div>
-							</div>
-						</div>
-						<!-- /menu-toggle -->
-					</div>
-				</div>
-			</nav>
-			<!-- /nav -->
-			<div class="menu-wrapper">
-				<div class="row h-100 align-items-center justify-content-center">
-					<div class="col-md-4">
-						<div class="link-item link-item-1">
-							<a href="about.html">
-								<img src="img/dalle-sq.png" alt="-">
-								<h3>About</h3>
-								<p>Hey, I'm Samm .<br>Work as a Front-end Developer.</p>
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
-								</div>
-							</a>
-						</div>
-						<!-- /link-item -->
-					</div>
-					<div class="col-md-4">
-						<div class="link-item link-item-2">
-							<a href="contact.html">
-								<img src="img/contact-sq.jpg" alt="-">
-								<h3>Contact</h3>
-								<p>Just say Hi.<br>or let's discuss about project.</p>
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
-								</div>
-							</a>
-						</div>
-						<!-- /link-item -->
-					</div>
-				</div>
-			</div>
-			<!-- /menu-wrapper -->
-		</header>
-		<!-- /header -->
-		<div class="intro">
-			<div class="row align-items-center justify-content-end h-100">
-				<div class="col-md-10">
-					<div class="home-intro">
-						<h2 data-aos="fade-up">Samm<span>Waturu</span></h2>
-						<h4 data-aos="fade-up" data-aos-delay="250">Freelance Front-end Developer</h4>
-						<div class="arrow-down" data-aos="fade-up" data-aos-delay="500">
-							<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path></svg>
-						</div>
-					</div>
-				</div>
-				<!-- /home-intro -->
-			</div>
-		</div>
-		<!-- /intro -->
-		<div class="row justify-content-end">
-			<div class="col-md-10">
-				<div class="showcase-wrapper">
-					<div class="row">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-01.html">
-									<img class="img-fluid" src="img/projects/project-01.jpg" alt="0#0">
-									<figcaption>Curtoon Cactus</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-md-8 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-02.html">
-									<img class="img-fluid" src="img/projects/project-02.jpg" alt="0#0">
-									<figcaption>New T Design</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-end">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-03.html">
-									<img class="img-fluid" src="img/projects/project-03.jpg" alt="0#0">
-									<figcaption>Leafs on Circle</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-md-8 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-04.html">
-									<img class="img-fluid" src="img/projects/project-04.jpg" alt="0#0">
-									<figcaption>Yellow Sunglass</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-05.html">
-									<img class="img-fluid" src="img/projects/project-05.jpg" alt="0#0">
-									<figcaption>Let's Drink Bro</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-				</div>
-				<!-- /showcase-wrapper -->
-				<div class="next-page">
-					<div class="row">
-						<div class="col" data-aos="fade-right">
-							<a href="about.html">
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
-								</div>
-								<h2>About Me</h2>
-								<p>Know Something More</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<!-- /next-page -->
-			</div>
-			<!-- /col-md-10 -->
-		</div>
-		<!-- /row - /content-end -->
-		<div class="row">
-			<div class="col">
-				<div class="copyright-text" data-aos="fade-down">
-					<a class="scrollTop" href="index.html#letsGo">
-						<div class="arrow-top">
-							<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path></svg>
-						</div>
-					</a>
-					<p>&copy; Samm </p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /main-wrapper -->
-	
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+
+<body>
+    <div class="container">
+        <div class="bg-image">
+            <div class="bg-image-slider" id="js-bg-image-slider">
+                <div class="slide">
+                    <picture class="picture image-cover">
+                        <source type="image/jpeg" srcset="img/main-img.jpg">
+                        <source type="image/webp" srcset="img/main-img.webp" class="">
+                        <img src="img/main-img.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="slide">
+                    <picture class="picture image-cover">
+                        <source type="image/jpeg" srcset="img/main-img-2.jpg">
+                        <source type="image/webp" srcset="img/main-img-2.webp" class="">
+                        <img src="img/main-img-2.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="slide">
+                    <picture class="picture image-cover">
+                        <source type="image/jpeg" srcset="img/main-img-3.jpg">
+                        <source type="image/webp" srcset="img/main-img-3.webp" class="">
+                        <img src="img/main-img-3.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <header class="top-panel section-relative with-fixed-menu">
+            <div class="wrap wide">
+                <div class="wrap_float">
+                    <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="collections.html">Collections</a></li>
+                            <li><a href="gallery.html">Insta Gallery</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="menu-btn fixed" id="js-menu-btn">Menu</div>
+                </div>
+            </div>
+        </header>
+        <div class="main-screen section-relative">
+            <div class="wrap">
+                <div class="wrap_float js-mobile-fix-height">
+                    <div class="site-title"><b>do</b><i>black.</i></div>
+                    <div class="main-screen-arrows">
+                        <div class="count"><span class="current">01</span>/<span class="total"></span></div>
+                        <div class="arrow prev"></div>
+                        <div class="arrow next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="posts-section section-relative mainpage-posts">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="posts-list">
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-1.jpg">
+                                    <source type="image/webp" srcset="img/post-img-1.webp" class="">
+                                    <img src="img/post-img-1.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-2.jpg">
+                                    <source type="image/webp" srcset="img/post-img-2.webp" class="">
+                                    <img src="img/post-img-2.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item without-img">
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-4.jpg">
+                                    <source type="image/webp" srcset="img/post-img-4.webp" class="">
+                                    <img src="img/post-img-4.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-5.jpg">
+                                    <source type="image/webp" srcset="img/post-img-5.webp" class="">
+                                    <img src="img/post-img-5.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-1.jpg">
+                                    <source type="image/webp" srcset="img/post-img-1.webp" class="">
+                                    <img src="img/post-img-1.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-2.jpg">
+                                    <source type="image/webp" srcset="img/post-img-2.webp" class="">
+                                    <img src="img/post-img-2.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-3.jpg">
+                                    <source type="image/webp" srcset="img/post-img-3.webp" class="">
+                                    <img src="img/post-img-3.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-4.jpg">
+                                    <source type="image/webp" srcset="img/post-img-4.webp" class="">
+                                    <img src="img/post-img-4.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="collection-single.html" class="post-item">
+                            <div class="post-image">
+                                <picture class="picture image-cover">
+                                    <source type="image/jpeg" srcset="img/post-img-5.jpg">
+                                    <source type="image/webp" srcset="img/post-img-5.webp" class="">
+                                    <img src="img/post-img-5.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="post-item-head">
+                                <div class="post-tags">
+                                    <div class="tag">New</div>
+                                    <div class="tag">New</div>
+                                </div>
+                            </div>
+                            <div class="post-item-body">
+                                <div class="post-category">Clothes</div>
+                                <h3 class="post-title">
+                                    <span>Qui dolorem eum fugiat</span>
+                                </h3>
+                            </div>
+                        </a>
+
+                    </div>
+                    <a href="collections.html" class="show-more-block">
+                        <span>
+                            View all <br>collections
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer section-relative">
+            <div class="wrap wide">
+                <div class="wrap_float">
+                    <div class="footer-top">
+                        <div class="footer-col first-col">
+                            <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
+                        </div>
+                        <div class="footer-col">
+                            <ul>
+                                <li><a href="collections.html">Collections</a></li>
+                                <li><a href="gallery.html">Insta Gallery</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col socials-col">
+                            <div class="socials">
+                                <a href="index.html#">Be</a>
+                                <a href="index.html#">Ig</a>
+                                <a href="index.html#">Fb</a>
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <ul>
+                                <li><a href="index.html#">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col last-col">
+                            <ul>
+                                <li><a href="index.html#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© doblack. 2023. | All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="menu-section" id="js-menu-section">
+            <div class="wrap wide">
+                <div class="wrap_float">
+                    <div class="menu-col">
+                        <a href="index.html" class="logo"><b>do</b><i>black.</i></a>
+                    </div>
+                    <div class="menu-col" style="margin-left: 36px">
+                        <div class="col-title">Collections</div>
+                        <ul class="col-ul">
+                            <li><a href="collections.html">All Collections</a></li>
+                            <li><a href="collection-single.html">Collections Single</a></li>
+                            <li><a href="gallery.html">Insta Gallery</a></li>
+                        </ul>
+                    </div>
+                       <div class="menu-col">
+                        <div class="col-title">Blog</div>
+                        <ul class="col-ul">
+                            <li><a href="blog.html">Blog Category</a></li>
+                            <li><a href="blog-single.html">Single Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-col">
+                        <div class="col-title">Other</div>
+                        <ul class="col-ul">
+                            <li><a href="404.html">404 Page</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-col last-col">
+                        <div class="close" id="js-menu-close">Close</div>
+                        <div class="socials">
+                            <a href="collection-single.html#">Be</a>
+                            <a href="collection-single.html#">Ig</a>
+                            <a href="collection-single.html#">Fb</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-message success-message" id="success-message">
+        <span>
+            Thanks! Your message has been sent
+        </span>
+    </div>
+
+    <div class="bottom-message error-message" id="error-message">
+        <span>
+            Error message!
+        </span>
+    </div>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/device.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.placeholder.label.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
