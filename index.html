@@ -1,201 +1,612 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="Creative Portfolio Template">
-    <meta name="author" content="ByteBuds">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Title -->
-    <title>ByteBuds - portfolio</title>
-    <!-- Favicon -->
-    <!-- All CSS -->
-    <link href="css/__plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/__responsive.css" rel="stylesheet" type="text/css">
-</head>
-<body id="letsGo">
-	<div class="loader">
-		<p class="loader-text">loading</p>
-	</div>
-	<!-- /loader -->
-	<p class="rotate-text">Samm  Samm  Samm  Samm  Samm Samm Samm Samm </p>
-	<!-- /rotate-text (word length should be larger then window width)-->
-	<div class="main-wrapper">
-		<header>
-			<nav>
-				<div class="row">
-					<div class="col-4">
-						<div class="logo">
-							<a href="index.html">Samm </a>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home - Blop</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Teko:400,700%7CRoboto:400,600,700,800,900"
+			type="text/css"
+			media="all"
+		/>
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/libs/material-design-iconic-font.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/libs/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/libs/justifiedGallery.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/libs/magnific-popup.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	</head>
+
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<!-- Preload -->
+			<div id="preload">
+				<div class="kd-bounce">
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<!-- Preload -->
+
+			<header id="header" class="header">
+				<div class="container">
+					<!-- Only Desktop -->
+					<div class="row">
+						<div class="col-sm-6">
+							<!-- Socials -->
+							<div class="socials">
+								<a
+									href="#"
+									class="blop blop-behance"
+									title="Behance"
+									target="blank"
+								></a>
+								<a
+									href="#"
+									class="blop blop-dribbble"
+									title="Dribbble"
+									target="blank"
+								></a>
+								<a
+									href="#"
+									class="blop blop-facebook"
+									title="Facebook"
+									target="blank"
+								></a>
+								<a
+									href="#"
+									class="blop blop-google"
+									title="Google Plus"
+									target="blank"
+								></a>
+								<a
+									href="#"
+									class="blop blop-twitter"
+									title="Twitter"
+									target="blank"
+								></a>
+							</div>
+							<!-- End Socials -->
 						</div>
-						<!-- /logo -->
+
+						<div class="col-sm-6">
+							<!-- Search -->
+							<div class="search-wrap">
+								<div class="search-inner">
+									<form
+										role="search"
+										method="get"
+										action="index-filter.html#"
+									>
+										<input
+											type="text"
+											placeholder="Type and hit enter..."
+											name="s"
+										/>
+										<input
+											type="submit"
+											value="&#xf1c3;"
+											class="submit"
+										/>
+									</form>
+								</div>
+							</div>
+							<!-- End Search -->
+						</div>
 					</div>
-					<div class="col-8 text-right">
-						<ul class="socials">
-							<li><a href="index.html#"><span class="ti-instagram"></span></a></li>
-							<li><a href="index.html#"><span class="ti-twitter"></span></a></li>
-							<li><a href="index.html#"><span class="ti-linkedin"></span></a></li>
-						</ul>
-						
-						<div class="vertical-divider"></div>
-						
-						<div class="menu-toggle cool-menu">
-							<div class="menu-icon">
-								<div class="menu-line menu-line--1"></div>
-								<div class="menu-line menu-line--2"></div>
-								<div class="menu-line menu-line--3"></div>
-								<div class="menu-line menu-line--4"></div>
-								<div class="menu-line menu-line--5"></div>
+					<!-- End Only Desktop -->
+
+					<!-- Only Mobile -->
+					<div class="mobile">
+						<!-- Mobile -->
+						<div class="menu-mobile">
+							<span class="item item-1"></span>
+							<span class="item item-2"></span>
+							<span class="item item-3"></span>
+						</div>
+						<!-- End Mobile -->
+
+						<!-- Socials -->
+						<div class="socials">
+							<a
+								href="index-filter.html#"
+								class="blop blop-behance"
+								title="Behance"
+								target="blank"
+							></a>
+							<a
+								href="index-filter.html#"
+								class="blop blop-dribbble"
+								title="Dribbble"
+								target="blank"
+							></a>
+							<a
+								href="index-filter.html#"
+								class="blop blop-facebook"
+								title="Facebook"
+								target="blank"
+							></a>
+							<a
+								href="index-filter.html#"
+								class="blop blop-google"
+								title="Google Plus"
+								target="blank"
+							></a>
+							<a
+								href="index-filter.html#"
+								class="blop blop-twitter"
+								title="Twitter"
+								target="blank"
+							></a>
+						</div>
+						<!-- End Socials -->
+
+						<div class="box-left">
+							<!-- Logo -->
+							<div class="logo">
+								<a href="index.html">
+									<img src="images/logo.png" alt="Logo" />
+								</a>
+							</div>
+							<!-- End Logo -->
+
+							<div class="main-menu">
+								<nav>
+									<ul class="menu-list clearfix">
+										<li class="menu-item">
+											<a href="about.html">Home</a>
+										</li>
+										<li class="menu-item">
+											<a href="about.html">About</a>
+										</li>
+										<li class="menu-item">
+											<a href="index-filter.html#"
+												>Identity</a
+											>
+										</li>
+										<li class="menu-item">
+											<a href="blog.html">Blog</a>
+										</li>
+										<li class="menu-item">
+											<a href="project.html">Projec</a>
+										</li>
+
+										<li class="menu-item">
+											<a href="contact.html">Contact</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="box-left-footer">
+								<!-- Socials -->
+								<div class="socials">
+									<a
+										href="index-filter.html#"
+										class="blop blop-behance"
+										title="Behance"
+										target="blank"
+									></a>
+									<a
+										href="index-filter.html#"
+										class="blop blop-dribbble"
+										title="Dribbble"
+										target="blank"
+									></a>
+									<a
+										href="index-filter.html#"
+										class="blop blop-facebook"
+										title="Facebook"
+										target="blank"
+									></a>
+									<a
+										href="index-filter.html#"
+										class="blop blop-google"
+										title="Google Plus"
+										target="blank"
+									></a>
+									<a
+										href="index-filter.html#"
+										class="blop blop-twitter"
+										title="Twitter"
+										target="blank"
+									></a>
+								</div>
+								<!-- End Socials -->
+
+								<form
+									role="search"
+									method="get"
+									action="index-filter.html#"
+								>
+									<input
+										type="text"
+										placeholder="Type and hit enter..."
+										name="s"
+									/>
+								</form>
 							</div>
 						</div>
-						<!-- /menu-toggle -->
+
+						<div class="body-overlay"></div>
+					</div>
+					<!-- End Only Mobile -->
+				</div>
+			</header>
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo" />
+				</a>
+			</div>
+			<!-- End Logo -->
+
+			<!-- Main Menu -->
+			<div class="main-menu">
+				<div class="container">
+					<nav>
+						<ul class="menu-list clearfix">
+							<li class="menu-item">
+								<a href="index.html">Home</a>
+							</li>
+							<li class="menu-item">
+								<a href="about.html">About</a>
+							</li>
+							<li class="menu-item"><a href="#">Identity</a></li>
+							<li class="menu-item">
+								<a href="blog.html">Blog</a>
+							</li>
+							<li class="menu-item">
+								<a href="project.html">Project</a>
+							</li>
+
+							<li class="menu-item">
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- End Main Menu -->
+
+			<div class="header-text">
+				<div class="container">
+					<div class="header-text-inner">
+						<p>I am Blop a Graphic <a href="#">#Designer</a></p>
 					</div>
 				</div>
-			</nav>
-			<!-- /nav -->
-			<div class="menu-wrapper">
-				<div class="row h-100 align-items-center justify-content-center">
-					<div class="col-md-4">
-						<div class="link-item link-item-1">
-							<a href="about.html">
-								<img src="img/dalle-sq.png" alt="-">
-								<h3>About</h3>
-								<p>Hey, I'm Samm .<br>Work as a Front-end Developer.</p>
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
+			</div>
+
+			<!-- Main Content -->
+			<div class="wrap-content">
+				<div class="container">
+					<div class="projects">
+						<div class="controls">
+							<strong>Filter: </strong>
+							<ul>
+								<li>
+									<a
+										href="#"
+										data-filter="*"
+										class="active"
+										data-tooltip="12"
+										>All</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										data-filter=".branding"
+										data-tooltip="9"
+										>Branding</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										data-filter=".design"
+										data-tooltip="6"
+										>Design</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										data-filter=".identity"
+										data-tooltip="8"
+										>Identity</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										data-filter=".travel"
+										data-tooltip="7"
+										>Travel</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="grids-layout cover">
+							<div class="project-item-sizer"></div>
+							<div class="project-item design travel">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/1.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Chair</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-							</a>
-						</div>
-						<!-- /link-item -->
-					</div>
-					<div class="col-md-4">
-						<div class="link-item link-item-2">
-							<a href="contact.html">
-								<img src="img/contact-sq.jpg" alt="-">
-								<h3>Contact</h3>
-								<p>Just say Hi.<br>or let's discuss about project.</p>
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
+							</div>
+
+							<div class="project-item design identity">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/2.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Watch</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-							</a>
-						</div>
-						<!-- /link-item -->
-					</div>
-				</div>
-			</div>
-			<!-- /menu-wrapper -->
-		</header>
-		<!-- /header -->
-		<div class="intro">
-			<div class="row align-items-center justify-content-end h-100">
-				<div class="col-md-10">
-					<div class="home-intro">
-						<h2 data-aos="fade-up">Samm<span>Waturu</span></h2>
-						<h4 data-aos="fade-up" data-aos-delay="250">Freelance Front-end Developer</h4>
-						<div class="arrow-down" data-aos="fade-up" data-aos-delay="500">
-							<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path></svg>
-						</div>
-					</div>
-				</div>
-				<!-- /home-intro -->
-			</div>
-		</div>
-		<!-- /intro -->
-		<div class="row justify-content-end">
-			<div class="col-md-10">
-				<div class="showcase-wrapper">
-					<div class="row">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-01.html">
-									<img class="img-fluid" src="img/projects/project-01.jpg" alt="0#0">
-									<figcaption>Curtoon Cactus</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-md-8 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-02.html">
-									<img class="img-fluid" src="img/projects/project-02.jpg" alt="0#0">
-									<figcaption>New T Design</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-end">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-03.html">
-									<img class="img-fluid" src="img/projects/project-03.jpg" alt="0#0">
-									<figcaption>Leafs on Circle</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-md-8 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-04.html">
-									<img class="img-fluid" src="img/projects/project-04.jpg" alt="0#0">
-									<figcaption>Yellow Sunglass</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-					<div class="row justify-content">
-						<div class="col-md-6 col-sm-8">
-							<figure class="showcase-item">
-								<a href="project-05.html">
-									<img class="img-fluid" src="img/projects/project-05.jpg" alt="0#0">
-									<figcaption>Let's Drink Bro</figcaption>
-								</a>
-							</figure>
-							<!-- /showcase-item -->
-						</div>
-					</div>
-				</div>
-				<!-- /showcase-wrapper -->
-				<div class="next-page">
-					<div class="row">
-						<div class="col" data-aos="fade-right">
-							<a href="about.html">
-								<div class="arrow-right">
-									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#fff;"><path d="M 21.1875 9.28125 L 19.78125 10.71875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 19.78125 21.28125 L 21.1875 22.71875 L 27.90625 16 Z"></path></svg>
+							</div>
+
+							<div class="project-item branding travel">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/3.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Glass</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-								<h2>About Me</h2>
-								<p>Know Something More</p>
-							</a>
+							</div>
+
+							<div class="project-item branding design">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/4.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Perfume</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item identity travel">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/5.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Book</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item branding identity">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/6.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Clock</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item identity travel">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/7.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Picture</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item branding design">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/8.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Mountain</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item branding travel">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/9.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Mountain</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-item branding design">
+								<div
+									class="project-item-inner image"
+									style="
+										background-image: url(images/projects/10.jpg);
+									"
+								>
+									<div class="project-item-content">
+										<h2 class="title">
+											<a href="#">Mountain</a>
+										</h2>
+										<ul class="project-cat">
+											<li>
+												<a href="#">Branding</a>
+											</li>
+											<li>
+												<a href="#">Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
+
+						<!-- Pagination -->
+						<div class="pagination-wrap">
+							<a href="#" class="load-more">Load More</a>
+							<a href="#" class="loader"></a>
+						</div>
+						<!-- End Pagination -->
 					</div>
 				</div>
-				<!-- /next-page -->
 			</div>
-			<!-- /col-md-10 -->
-		</div>
-		<!-- /row - /content-end -->
-		<div class="row">
-			<div class="col">
-				<div class="copyright-text" data-aos="fade-down">
-					<a class="scrollTop" href="index.html#letsGo">
-						<div class="arrow-top">
-							<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path></svg>
-						</div>
-					</a>
-					<p>&copy; Samm </p>
+			<!-- End Main Content -->
+
+			<footer id="footer" class="footer">
+				<div class="container">
+					<div class="copyright">Blop @ 2023.</div>
 				</div>
-			</div>
+			</footer>
 		</div>
-	</div>
-	<!-- /main-wrapper -->
-	
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-</body>
+		<!-- End Wrapper -->
+
+		<!-- Scripts -->
+		<script src="js/libs/jquery-1.12.4.min.js"></script>
+		<script src="js/libs/jquery.justifiedGallery.min.js"></script>
+		<script src="js/libs/jquery.magnific-popup.js"></script>
+		<script src="js/libs/isotope.pkgd.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<!-- End Scripts -->
+	</body>
 </html>
